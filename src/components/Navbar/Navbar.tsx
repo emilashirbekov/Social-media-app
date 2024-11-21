@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { SearchField } from "./SearchField";
 import { UserButton } from "../UserButton/UserButton";
+import { ModeToggle } from "../Mode-toggle";
 
 export const Navbar = () => {
   return (
@@ -11,6 +12,7 @@ export const Navbar = () => {
         </Link>
         <SearchField />
         <UserButton className='sm:ms-auto' />
+        <ModeToggle />
       </div>
     </header>
   );
