@@ -23,7 +23,7 @@ export const UserPost = () => {
   //       blockSeparator: "\n",
   //     }) || "";
   return (
-    <div className='flex flex-col gap-5 rounded-2xl bg-card p-5 shadow-sm'>
+    <div className='flex flex-col gap-5 rounded-2xl bg-card p-5 shadow-sm h-fit'>
       <div className='flex gap-5'>
         <UserAvatar
           avatarUrl='/assets/avatar-placeholder.png'
